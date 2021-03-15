@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    background-color:black;
+}
+
+h1{
+    text-align: center;
+    background-color: #ffba08;
+    color: black;
+    padding: .8em;
+
+}
+
+dt {   
+    background: #B8C1C8;
+    color: #FFF;
+    margin: 0;
+    padding: 2px 0 0 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    font-size: 40px;
+    font-family: 'Alegreya', serif;
+}
+
+dd {font-family: 'Times New Roman', Times, serif ;
+    color: #d8e2dc;
+    font-size: 30px;
+    margin: 0;
+    padding: 0 0 0 12px;
+    white-space: nowrap;
+}
