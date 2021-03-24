@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1.2fr 2.2fr 0.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "nav nav nav nav"
+      "slider slider slider slider"
+      "card1 card2 card3 card4"
+      "footer footer footer footer";
+  }
+  
+  .nav { grid-area: nav; 
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    list-style:none;
+    min-height: 50px;
+    width: 100vw;}
+    .leftnav{
+        
+        font-size: 1.8rem;
+        padding: 5px;
+        margin: 5px;
+    }
+  
+  .slider { grid-area: slider; }
+  
+  .footer { grid-area: footer; }
+  
+  .card1 { grid-area: card1; }
+  
+  .card2 { grid-area: card2; }
+  
+  .card3 { grid-area: card3; }
+  
+  .card4 { grid-area: card4; }
+  

@@ -1,0 +1,74 @@
+.nav-link.active {
+}
+
+.portfolio-block.block-intro {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .portfolio-block {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+}
+
+.portfolio-block {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.portfolio-block.block-intro .avatar {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 100px;
+  margin-bottom: 30px;
+}
+
+element.style {
+  filter: blur(0px);
+  box-shadow: 0px 0px 7px 5px;
+  border-style: none;
+}
+
+.portfolio-block.block-intro p {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.rounded-pill {
+  border-radius: 50rem !important;
+}
+
+.font-monospace {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-family: var(--bs-font-monospace) !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+.border-light {
+  border-color: #f8f9fa !important;
+}
+
+.border {
+  border: 1px solid #dee2e6 !important;
+}
+
+.shadow {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
